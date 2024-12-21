@@ -15,6 +15,7 @@ public class Invertory {
 
     public Invertory setId(Long id) {
         this.id = id;
+        System.out.println("i do some change is code ");
         return this;
     }
 
@@ -33,6 +34,7 @@ public class Invertory {
 
     public Invertory setSkuCode(String skuCode) {
         this.skuCode = skuCode;
+        System.out.println("BUG FIX");
         return this;
     }
 
